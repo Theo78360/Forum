@@ -6,7 +6,8 @@ define('ROOT',dirname(WEBROOT));
 define('CORE',ROOT.'/core');
 define('BASE_URL',dirname(dirname($_SERVER['SCRIPT_NAME'])));
 
-require CORE."/functions.php";
+require "CORE/functions.php";
+require "CORE/Alert.php";
 
 $bdd = connectBDD();
 

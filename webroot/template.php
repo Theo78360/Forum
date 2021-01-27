@@ -68,7 +68,7 @@
         </div>
     </div>
     <main class="container">
-        <?= flash(); ?>
+        <?= Alert::flash(); ?>
         <?= $content; ?>
     </main>
     <!-- /.container -->
