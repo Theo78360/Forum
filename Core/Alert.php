@@ -3,7 +3,7 @@
 class Alert{
     
 
-
+drgghh
 public static function setFlash($message,$type = "success"){
     
 		$_SESSION['flash']['message'] = $message;
@@ -18,5 +18,6 @@ public static function flash(){
         return "<div class='alert alert-$type'>$message</div>";
     }
 }
+
 }
 
